@@ -1,32 +1,40 @@
 
-## Typescript
-
-## React
-## Nextjs 
+- Typescript
+- React
+- Nextjs 
 
 for e2e testing 
-## cypress
+->  cypress
 
 
 for css writing
-## Styled component
-## styled system
+-> Styled component
+->  styled system
 
 for api call
-## SWR
+->  SWR
 
 
 for global state system
-## Recoil
+->  Recoil
 
 
 
-for clean code
-## atomic design
+for clean code & code style
+-> atomic design
 https://bradfrost.com/blog/post/atomic-web-design/
 
-## pure function
+-> pure function
 https://www.geeksforgeeks.org/pure-functions-in-javascript/
+
+->  custom hooks
+https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889
+https://github.com/rehooks/awesome-react-hooks
+
+-> function component > class component
+
+
+
 
 
 for design pattern
