@@ -4,8 +4,6 @@
 ## React
 ## Nextjs 
 
-
-
 for e2e testing 
 ## cypress
 
@@ -33,12 +31,10 @@ https://www.geeksforgeeks.org/pure-functions-in-javascript/
 
 for design pattern
 
+example:
 - pages/home.tsx
 - component/
 --components/home/Title.tsx
 --components/home/Message.tsx
 --components/home/utils.ts
 --components/home/atom.ts
-
-
-
