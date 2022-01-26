@@ -2,25 +2,33 @@
 - Typescript
 - React
 - Nextjs 
+- npm / yarn
 
-for e2e testing 
+
+
+run dev
+- yarn dev
+- cypress open
+
+
+#### for e2e testing 
 ->  cypress
 
 
-for css writing
+#### for css writing
 -> Styled component
 ->  styled system
 
-for api call
+#### for api call
 ->  SWR
 
 
-for global state system
+#### for global state system
 ->  Recoil
 
 
 
-for clean code & code style
+#### for clean code & code style
 -> atomic design
 https://bradfrost.com/blog/post/atomic-web-design/
 
@@ -37,8 +45,7 @@ https://github.com/rehooks/awesome-react-hooks
 
 
 
-for design pattern
-
+#### for design pattern
 example:
 - pages/home.tsx
 - component/
