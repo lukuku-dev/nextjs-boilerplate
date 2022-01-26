@@ -4,7 +4,7 @@ import Greeting from "components/home/Greeting";
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
-    <Greeting message={"Hello World"} />
+    <Greeting message={"Hello World with test"} />
     <Link href="/about">
       <a>About</a>
     </Link>
