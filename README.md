@@ -1,4 +1,50 @@
+coding style
+```
+for the react component, use regular function(not arrow function)
+//bad
+const Home = ()=> {
+    return <p>its hoem</p>
+}
 
+//good
+export default function const Home(){
+    return <p>its hoem</p>
+}
+
+
+
+
+and for the real function(not related with react compoennt,) use arrow function
+//bad
+funtion sumNumber(a,b){
+    return a+b
+}
+
+//good
+const sumNumber = (a,b)=> {
+    return a+b
+}
+
+---------
+
+we are using on typescript with baseUrl,
+so we dont need to drilling import module, we can access it from the baseUrl
+
+//bad
+import { Container } from "../../styles/layout";
+
+//good
+import { Container } from "styles/layout";
+
+```
+
+
+
+
+
+
+
+- Node js (v.16 + )
 - Typescript
 - React
 - Nextjs 
