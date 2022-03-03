@@ -4,9 +4,9 @@
 3. ..
 
 
-### which part do the reviewer need to check on the client-side?
+### list up the UI check list for the client-side
 1. ..
 2. ..
 3. ..
 
-### Screenshots(if it needs)
+### Screenshots(if needed)
