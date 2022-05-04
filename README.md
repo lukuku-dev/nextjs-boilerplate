@@ -1,25 +1,24 @@
-Node js (v.16 + )
-Typescript
-React
-Nextjs
-npm / yarn
-run dev
+# Stack
+- Node js (v.16 + )
+- Typescript
+- React
+- Nextjs
+- yarn
 
-yarn dev
-cypress open
-for e2e testing
+### e2e testing
 -> cypress
 
-for css writing
+### css writing
 -> Styled component -> styled system
 
-for api call
+### api call
 -> SWR
 
-for global state system
+### global state system
 -> Recoil
 
-for clean code & code style
+### clean code & code style
+```
 -> atomic design https://bradfrost.com/blog/post/atomic-web-design/
 
 -> pure function https://www.geeksforgeeks.org/pure-functions-in-javascript/
@@ -27,13 +26,14 @@ for clean code & code style
 -> custom hooks https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889 https://github.com/rehooks/awesome-react-hooks
 
 -> function component > class component
+```
 
-for design pattern
+### react structure
+```
 example:
-
 pages/home.tsx
 component/ --components/home/Title.tsx --components/home/Message.tsx --components/home/utils.ts --components/home/atom.ts
-
+```
 
 # style guide
 
