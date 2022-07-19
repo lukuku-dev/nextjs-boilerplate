@@ -32,6 +32,11 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta charSet="utf-8" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
           {/* Add stuff you want in your header from here */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
