@@ -4,10 +4,12 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "next": "^12.1.6",
+    "next-sitemap": "^3.1.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.3"
