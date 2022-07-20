@@ -10,6 +10,17 @@ body{
     font-size: 18px
 }
 
+
+/* Color and font weight Variables */
+:root{
+  --primary-Color: #05B6EE;
+
+  --fntWgtRegular: 400,
+  --fntWgtMedium: 500,
+  --fntWgtSBold: 600,
+  --fntWgtBold: 700,
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

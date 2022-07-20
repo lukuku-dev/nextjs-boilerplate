@@ -22,7 +22,7 @@ const GreetingSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: ${({ theme }) => theme.primaryColor};
+  color: var(--primary-Color);
   font-size: 20px;
   div {
     display: flex;
