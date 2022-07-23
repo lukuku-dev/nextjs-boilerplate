@@ -1,13 +1,12 @@
-import Link from "next/link";
 import Layout from "components/common/Layout";
 import Greeting from "components/home/Greeting";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <Greeting message={"Hello World with test"} />
-    <Link href="/about">
-      <a>About</a>
-    </Link>
+  <Layout
+    title="Lukuku Next(TS) Starter Boilerplate"
+    description="A frontend NextJS starter boilerplate made with ❤️ bu Lukuku."
+  >
+    <Greeting message={"Welcome to Lukuku Next Boilerplate"} />
   </Layout>
 );
 

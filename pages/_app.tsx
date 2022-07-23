@@ -1,28 +1,25 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import GlobalStyle from "../styled/GlobalStyle";
+import ProgressBar from "@badrap/bar-of-progress";
+import Router from "next/router";
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-`
+const progress = new ProgressBar({
+  size: 4,
+  color: "#4cba4d",
+  className: "bar-of-progress",
+  delay: 100,
+});
 
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-}
+Router.events.on("routeChangeStart", progress.start);
+Router.events.on("routeChangeComplete", progress.finish);
+Router.events.on("routeChangeError", progress.finish);
 
 function App({ Component, pageProps }) {
   return (
     <>
       <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <Component {...pageProps} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
