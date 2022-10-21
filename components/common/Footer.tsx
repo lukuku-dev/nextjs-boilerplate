@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <FooterSection>
-      <span>I'm footer</span>
+      <span>{"I'm footer"}</span>
     </FooterSection>
   );
 };

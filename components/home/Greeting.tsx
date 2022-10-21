@@ -9,7 +9,7 @@ function Greeting({ message }: Props) {
     <GreetingSection>
       <div>
         <CompanyLogo>
-          <Image src="/lukuku.png" layout="fill" />
+          <Image src="/lukuku.png" layout="fill" alt="Alt Text" />
         </CompanyLogo>
         {message}
       </div>
