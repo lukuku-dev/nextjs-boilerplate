@@ -6,7 +6,7 @@ const IndexPage = () => (
     title="Lukuku Next(TS) Starter Boilerplate"
     description="A frontend NextJS starter boilerplate made with ❤️ bu Lukuku."
   >
-    <Greeting message={"Welcome to Lukuku Next Boilerplate"} />
+    <Greeting message={"Welcome to Lukuku Next Boilerplate!"} />
   </Layout>
 );
 
