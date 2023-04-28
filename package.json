@@ -6,7 +6,8 @@
     "start": "next start",
     "type-check": "tsc",
     "postbuild": "next-sitemap",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.1",
