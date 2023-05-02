@@ -8,10 +8,9 @@ function Greeting({ message }: Props) {
   return (
     <GreetingSection>
       <div>
-        <CompanyLogo>
-          <Image src="/lukuku.png" layout="fill" alt="Alt Text" />
-        </CompanyLogo>
-        {message}
+      <div className="main-section-heading">
+            <h2>Check payment details</h2>
+      </div>
       </div>
     </GreetingSection>
   );
@@ -20,14 +19,12 @@ function Greeting({ message }: Props) {
 const GreetingSection = styled.div`
   min-height: 90vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--primary-Color);
   font-size: 20px;
+  margin: 1% 10%;
   div {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 `;
 
@@ -37,5 +34,7 @@ const CompanyLogo = styled.div`
   height: 100px;
   text-align: center;
 `;
+
+
 
 export default Greeting;
