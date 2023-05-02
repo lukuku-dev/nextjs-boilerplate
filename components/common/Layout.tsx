@@ -14,7 +14,7 @@ const Layout = ({
   title = "This is the default title",
   description = "I am a default Description",
 }: Props) => (
-  <div>
+  <>
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -29,7 +29,7 @@ const Layout = ({
     <Header />
     {children}
     <Footer />
-  </div>
+  </>
 );
 
 export default Layout;
