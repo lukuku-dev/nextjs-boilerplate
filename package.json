@@ -6,11 +6,11 @@
     "start": "next start",
     "type-check": "tsc",
     "postbuild": "next-sitemap",
-    "lint": "next lint",
-    "preinstall": "npx only-allow pnpm"
+    "lint": "next lint"
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
+    "cypress": "^12.17.1",
     "next": "13.4.2",
     "next-sitemap": "^4.0.9",
     "react": "^18.2.0",
@@ -21,7 +21,6 @@
     "@types/node": "20.1.4",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
-    "cypress": "12.12.0",
     "eslint": "^8.40.0",
     "eslint-config-next": "13.4.2",
     "eslint-config-prettier": "^8.8.0",
