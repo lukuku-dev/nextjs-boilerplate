@@ -4,7 +4,7 @@ import Greeting from "components/home/Greeting";
 const IndexPage = () => (
   <Layout
     title="Lukuku Next(TS) Starter Boilerplate"
-    description="A frontend NextJS starter boilerplate made with ❤️ bu Lukuku."
+    description="A frontend NextJS starter boilerplate made with ❤️ by Lukuku."
   >
     <Greeting message={"Welcome to Lukuku Next Boilerplate"} />
   </Layout>
