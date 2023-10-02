@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import GlobalStyle from "../styled/GlobalStyle";
 import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";
@@ -14,6 +16,23 @@ Router.events.on("routeChangeComplete", progress.finish);
 Router.events.on("routeChangeError", progress.finish);
 
 function App({ Component, pageProps }) {
+  useEffect(() => {
+    function setRealViewportHeight() {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--real-vh", `${vh}px`);
+    }
+
+    // Set the initial height
+    setRealViewportHeight();
+
+    // Update the height whenever the window is resized
+    window.addEventListener("resize", setRealViewportHeight);
+
+    // Cleanup listener on component unmount
+    return () => {
+      window.removeEventListener("resize", setRealViewportHeight);
+    };
+  }, []);
   return (
     <>
       <GlobalStyle />
