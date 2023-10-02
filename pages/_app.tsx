@@ -18,7 +18,7 @@ Router.events.on("routeChangeError", progress.finish);
 function App({ Component, pageProps }) {
   useEffect(() => {
     function setRealViewportHeight() {
-      let vh = window.innerHeight * 0.01;
+      let vh = window.innerHeight;
       document.documentElement.style.setProperty("--real-vh", `${vh}px`);
     }
 
