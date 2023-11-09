@@ -11,7 +11,7 @@
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
     "cypress": "^12.17.4",
-    "next": "13.4.19",
+    "next": "13.5.0",
     "next-sitemap": "^4.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
