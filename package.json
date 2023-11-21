@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
-    "cypress": "^12.17.4",
-    "next": "13.5.0",
+    "next": "13.4.19",
     "next-sitemap": "^4.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,6 +20,7 @@
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "@types/styled-components": "^5.1.31",
     "eslint": "^8.49.0",
     "eslint-config-next": "13.4.19",
     "eslint-config-prettier": "^8.10.0",
