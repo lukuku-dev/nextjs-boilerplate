@@ -1,0 +1,12 @@
+!.*
+node_modules
+
+# next
+.next/
+.build/
+.coverage/
+
+dist/*
+.cache
+public
+*.esm.js
