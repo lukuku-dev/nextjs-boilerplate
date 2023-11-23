@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "prepare": "husky install",
+    "postinstall": "husky install",
     "format": "prettier .",
     "format:fix": "yarn format --write",
     "dev": "next",
