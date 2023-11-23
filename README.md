@@ -66,6 +66,7 @@ component/ --components/home/Title.tsx --components/home/Message.tsx --component
   ```
 
 - using `baseUrl` importing module( no need to dot drilling)
+
   ```tsx
   //good
   import { Container } from "styles/layout";
