@@ -1,10 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "prettier", "unused-imports"],
+  "extends": ["next/core-web-vitals", "prettier"],
   "rules": {
-    "no-console": 2,
-    "no-unused-vars": "off",
-    "unused-imports/no-unused-imports": "error",
-    "@typescript-eslint/no-unused-vars": "off",
-    "unused-imports/no-unused-vars": "off"
+    "no-console": "error"
   }
 }

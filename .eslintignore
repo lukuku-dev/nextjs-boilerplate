@@ -10,3 +10,7 @@ dist/*
 .cache
 public
 *.esm.js
+
+package.json
+
+.eslintrc.json

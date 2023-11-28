@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import styled from "styled-components";
 import packages from "package.json";
+import styled from "styled-components";
 
 interface Props {
   message: string;

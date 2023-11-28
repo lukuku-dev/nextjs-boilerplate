@@ -1,4 +1,3 @@
-// TODO switch to ES6 if possible
 /** @type {import('prettier').Config} */
 module.exports = {
   endOfLine: "lf",
@@ -26,4 +25,6 @@ module.exports = {
     "",
     "^[./]",
   ],
+  plugins: ["prettier-plugin-organize-imports"],
+  organizeImports: true,
 };
