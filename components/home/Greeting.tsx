@@ -35,7 +35,7 @@ function Greeting({ message }: Props) {
 }
 
 const GreetingSection = styled.div`
-  min-height: 90vh;
+  min-height: var(--real-vh);
   display: flex;
   align-items: center;
   justify-content: center;
