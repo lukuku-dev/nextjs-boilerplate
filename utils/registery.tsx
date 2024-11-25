@@ -17,13 +17,14 @@ export default function StyledComponentsRegistry({
   useServerInsertedHTML(() => {
     const styles = styledComponentsStyleSheet.getStyleElement();
     styledComponentsStyleSheet.instance.clearTag();
+
     return <>{styles}</>;
   });
 
   // Calculating real VH and creating css variable
   useEffect(() => {
     function setRealViewportHeight() {
-      let vh = window.innerHeight;
+      const vh = window.innerHeight;
       document.documentElement.style.setProperty("--real-vh", `${vh}px`);
     }
 

@@ -89,14 +89,14 @@ export default [
       ],
 
       "@typescript-eslint/no-unused-vars": [
-        2,
+        "warn",
         {
           argsIgnorePattern: "^_",
         },
       ],
 
       "no-console": [
-        2,
+        "error",
         {
           allow: ["warn", "error"],
         },
