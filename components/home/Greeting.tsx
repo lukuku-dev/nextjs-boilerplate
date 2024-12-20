@@ -1,4 +1,5 @@
 "use client";
+import Layout from "components/common/Layout";
 import Image from "next/image";
 import packages from "package.json";
 import styled from "styled-components";
@@ -9,28 +10,30 @@ interface Props {
 
 function Greeting({ message }: Props) {
   return (
-    <GreetingSection>
-      <div>
-        <CompanyLogo>
-          <Image src="/icon.png" width={50} height={50} alt="Alt Text" />
-        </CompanyLogo>
-        <h2>{message}</h2>
+    <Layout>
+      <GreetingSection>
+        <div>
+          <CompanyLogo>
+            <Image src="/icon.png" width={50} height={50} alt="Alt Text" />
+          </CompanyLogo>
+          <h2>{message}</h2>
 
-        <Title>Dependencies</Title>
-        <List>
-          {Object.entries(packages.dependencies).map((pack, key) => (
-            <li key={key}>{pack}</li>
-          ))}
-        </List>
+          <Title>Dependencies</Title>
+          <List>
+            {Object.entries(packages.dependencies).map((pack, key) => (
+              <li key={key}>{pack}</li>
+            ))}
+          </List>
 
-        <Title>Dev Dependencies</Title>
-        <List>
-          {Object.entries(packages.devDependencies).map((pack, key) => (
-            <li key={key}>{pack}</li>
-          ))}
-        </List>
-      </div>
-    </GreetingSection>
+          <Title>Dev Dependencies</Title>
+          <List>
+            {Object.entries(packages.devDependencies).map((pack, key) => (
+              <li key={key}>{pack}</li>
+            ))}
+          </List>
+        </div>
+      </GreetingSection>
+    </Layout>
   );
 }
 
